@@ -10,7 +10,7 @@
  */
 
 error_reporting (E_ALL ^ E_WARNING);
-error_reporting (E_ALL ^ E_NOTICE); //David, perdón por bloquear el reporte de errores, pero era el único error que tenía en el código y no pude solucionarlo lamentablemente, perdí dos días intentando arreglarlo
+error_reporting (E_ALL ^ E_NOTICE);
 include_once '../partes/cabecera.php';
 if (isset($_SESSION['usuario'])) {
 ?>
