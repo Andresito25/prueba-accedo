@@ -79,10 +79,13 @@ if (isset($_SESSION['usuario'])) {
 
 <?php
 } else {
-    echo "<p style='text-align:center'>";
+    echo "<div class='parrrafo'>";
+    echo "<div class='parrrafo__intro'>";
+    echo "Esta página es una pokedex en la cual puedes mirar el nombre, la imagen y las habilidades del pokemon que selecciones." . "</br></br>" . "Recuerda crear una cuenta primero" . "</br></br>" . "<hr>";
+    echo "</div>";
     echo "¿Aún no estas registrado?" . " Registrate " . "<a href='../app/registro.php'> <strong>Aquí</strong></a>" . "</br>";
     echo "¿Ya tienes una cuenta?" . " Ingresa " . "<a href='../app/ingreso.php'> <strong>Aquí</strong></a>";
-    echo "</p";
+    echo "</div>";
 }
 include_once '../partes/pie.php';
 ?>

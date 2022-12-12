@@ -316,6 +316,19 @@ input:invalid {
     font-size: .8em;
 }
 
+.parrrafo {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid blue; */
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.parrrafo__intro {
+    margin: 20px 0;
+}
+
 /* Diseño responsivo para tamaños de pantallas inferiores a los 678px */
 @media (max-width: 678px) {
     .titulo {
